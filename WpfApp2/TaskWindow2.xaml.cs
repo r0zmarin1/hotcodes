@@ -31,7 +31,7 @@ namespace WpfApp2
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            string messageBoxText = Login1 + Password1+ "";
+            string messageBoxText = Login1 + "\n" + Password1 + "";
             string caption = "Не надо";
             MessageBoxButton button = MessageBoxButton.YesNoCancel;
             MessageBoxImage icon = MessageBoxImage.Warning;

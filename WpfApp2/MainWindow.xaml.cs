@@ -36,6 +36,6 @@ namespace WpfApp2
             TaskWindow2 taskWindow2 = new TaskWindow2();
             taskWindow2.Show();
         }
-        }
+        
     }
 }
